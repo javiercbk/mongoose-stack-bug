@@ -1,0 +1,22 @@
+{
+  "name": "mongoose-stack-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=TEST ./node_modules/mocha/bin/_mocha ./test/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "chai": "^4.1.2",
+    "lodash": "^4.17.10",
+    "mocha": "^5.1.1",
+    "mongoose": "5.0.18",
+    "mongoose-delete": "^0.4.0",
+    "naive-mongo": "^3.0.7",
+    "sinon": "^5.0.7",
+    "uuid": "^3.2.1"
+  }
+}
